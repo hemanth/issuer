@@ -1,6 +1,6 @@
 {
   "name": "issuer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Reduces overhead in creating issues.",
   "license": "MIT",
   "repository": "hemanth/issuer",
