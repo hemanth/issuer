@@ -1,0 +1,44 @@
+{
+  "name": "issuer",
+  "version": "0.0.0",
+  "description": "Reduces overhead in creating issues.",
+  "license": "MIT",
+  "repository": "hemanth/issuer",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "issue",
+    "github",
+    "helper",
+    "util"
+  ],
+  "dependencies": {
+    "child-process-promise": "^1.1.0",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.5.0",
+    "xo": "^0.11.2"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
